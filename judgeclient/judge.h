@@ -1,0 +1,1 @@
+extern "C" _declspec(dllexport) int judge(int a, int b,int data[]);
