@@ -11,7 +11,10 @@ judge-client(Python+C) 是任务处理系统
 judged 运行在Linux上
 judge-client 运行在windows上
 
-
+***
+在judge-client 这一部分，最核心的一部分采用C编译成的DLL
+删除文件 编译等任务使用Python解决
+***
 问题
 	judged
 	1.采用了MultiProcess模块 分布式进程
@@ -22,6 +25,6 @@ judge-client 运行在windows上
 	给一段错误结果：
 	*** Error in `python': double free or corruption (out): 	0x00007fd6dc001970 ***
 	已放弃 (核心已转储) 
-	求大神指导
+	求大神指导！！！
 	
 	

@@ -16,6 +16,7 @@ judge-client 运行在windows上
 删除文件 编译等任务使用Python解决
 ***
 问题
+=========
 	judged
 	1.采用了MultiProcess模块 分布式进程
 	只能在linux上运行，在windows上运行抛出lamda错误
